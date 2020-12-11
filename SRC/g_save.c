@@ -346,7 +346,7 @@ void InitGame (void)
 	sniper_only = gi.cvar ("sniper_only", "0", 0);
 	no_nades = gi.cvar ("no_nades", "0", 0);
 	airstrikes = gi.cvar ("airstrikes", "1", 0);
-	mapvoting = gi.cvar ("mapvoting", "0", 0);
+	mapvoting = gi.cvar ("mapvoting", "1", 0);
 	constant_play = gi.cvar ("constant_play", "0", 0);
 
 	ctc = gi.cvar ("ctc", "0", 0);
@@ -355,7 +355,7 @@ void InitGame (void)
 
 	fast_knife = gi.cvar ("fast_knife", "0", 0);
 
-	chile = gi.cvar ("chile", "0", CVAR_LATCH);
+	chile = gi.cvar ("chile", "1", CVAR_LATCH);
 
 	knifefest = gi.cvar ("knifefest", "0", 0);
 	
